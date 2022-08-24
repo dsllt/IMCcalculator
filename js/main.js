@@ -31,3 +31,6 @@ function displayResultMessage(resultIMC) {
   Modal.message.innerHTML = message
   Modal.open()
 }
+
+inputWeight.oninput = () => errorAlert.close()
+inputHeight.oninput = () => errorAlert.close()
